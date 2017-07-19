@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+  <link rel="stylesheet" href="./common/common.css">
+  <link rel="stylesheet" href="./css/bianmin.css">
+  <title></title>
+  <style media="screen">
+    .jt{width: 100%;height: 11.59rem;display: block;}
+    .tittles{width: 100%;height: 1.2rem;}
+    .tittles img{width: 0.36rem;height: 0.36rem;margin:0.42rem 0.35rem}
+
+  </style>
+</head>
+<body>
+  <div class="tittles">
+    <img src="./img/bc-bt.png" alt="" id="back">
+  </div>
+  <img src="./img/appJT/出行票.jpg" alt="" class="jt">
+  <script src="./common/autosize.js" charset="utf-8"></script>
+  <script type="text/javascript">
+    var back=document.getElementById("back")
+    back.onclick=function(){
+      history.go(-1)
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>便民详情</title>
+	<script type="text/javascript" src="cordova.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+	<script type="text/javascript" src="js/autosize.js"> </script>
+	<link rel="stylesheet" href="css/mian.css" />
+	<link rel="stylesheet" href="./common/common.css">
+</head>
+
+<body>
+	<header>
+		<div class="backBTN"></div>
+		<span style="font-size:0.41rem;position:absolute;left:3.2rem">详情</span>
+		<img src="./img/fenxiang.png" alt=""  style="float:right;width: 0.39rem;height: 0.37rem;margin-top:0.335rem;margin-right:0.25rem">
+		<img src="./img/shoucang.png" alt=""  style="float:right;width: 0.42rem;height: 0.37rem;margin-top:0.335rem;margin-right:0.25rem">
+	</header>
+	<div class="banner"><img src="img/bianmingxiangqing/banner.png"></div>
+	<div class="detail_title">西藏独特的风景百姓心中的守护神</div>
+	<div class="detail_time">发布于2017年6月9日</div>
+	<div style="width:100%;height:0.2rem;background-color:#EEEEEE;margin-top:0.4rem"></div>
+	<div class="detail">
+		<img src="img/bianmingxiangqing/1.png">
+		<img src="img/bianmingxiangqing/2.png">
+		<img src="img/bianmingxiangqing/3.png">
+		<img src="img/bianmingxiangqing/4.png">
+		<img src="img/bianmingxiangqing/5.png">
+
+	</div>
+	<script media="screen">
+		document.getElementsByClassName("backBTN")[0].onclick=function(){
+			history.go(-1)
+		}
+	</script>
+</body>
+</html>
